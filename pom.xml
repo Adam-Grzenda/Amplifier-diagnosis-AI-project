@@ -13,6 +13,18 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>net.sf.clipsrules</groupId>
+            <artifactId>clips.jni</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/CLIPSJNI.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+
+
 
 </project>
