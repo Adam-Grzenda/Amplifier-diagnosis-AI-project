@@ -42,7 +42,7 @@ public class ClipsActionListener implements ActionListener {
             } else if (actionCommand.equals("Restart")) {
                 clips.reset();
             }
-            System.out.println("testy: " + clips.eval("(facts)").toString());
+            System.out.println("facts: " + clips.eval("(facts)").toString());
             runClips();
         } catch (Exception ignored) {
         }

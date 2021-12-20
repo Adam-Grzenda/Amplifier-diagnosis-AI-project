@@ -1,10 +1,10 @@
 package pl.put.amplifierdiagnosis.gui;
 
 import net.sf.clipsrules.jni.MultifieldValue;
-import net.sf.clipsrules.jni.PrimitiveValue;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class DiagnosisGUI {
@@ -29,7 +29,7 @@ public class DiagnosisGUI {
 
 
     public DiagnosisGUI() {
-        resources = ResourceBundle.getBundle("AmplifierDiagnosis");
+        resources = ResourceBundle.getBundle("AmplifierDiagnosis", new Locale("en", "EN"));
         jFrame = new JFrame(resources.getString("AmplifierDiagnosis"));
         initJFrame();
 
