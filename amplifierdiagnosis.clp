@@ -176,7 +176,7 @@
     (retract ?f2)
     (modify ?f1 (state final))
     (assert
-        (UI-state (display SubstituteTubesFinal) (state final))
+        (UI-state (display CompetentRepairServiceFinal) (state final))
     )
 )
 
